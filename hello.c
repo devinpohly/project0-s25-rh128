@@ -5,7 +5,7 @@ int main(void) {
 	// The "\n" means "start a new line"
 	printf("Hello, world!\n");
 
-	for (int i = 10; i > 0; i--) {
+	for (int i = 1; i <= 10; i++) {
 		// "%d" means "insert a decimal (base-10) int here"
 		// Notice no "\n" - this will continue on one line...
 		printf("%d! ", i);
